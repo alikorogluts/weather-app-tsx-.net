@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "QQ5VDHZLmDo=",
+  "success": true,
+  "projectFilePath": "/Users/alikoroglu/Desktop/weather-app/weather-api/weather-api.csproj",
+  "expectedPackageFiles": [
+    "/Users/alikoroglu/.nuget/packages/dotnetseleniumextras.waithelpers/3.11.0/dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
+    "/Users/alikoroglu/.nuget/packages/microsoft.aspnetcore.openapi/9.0.10/microsoft.aspnetcore.openapi.9.0.10.nupkg.sha512",
+    "/Users/alikoroglu/.nuget/packages/microsoft.extensions.apidescription.server/9.0.0/microsoft.extensions.apidescription.server.9.0.0.nupkg.sha512",
+    "/Users/alikoroglu/.nuget/packages/microsoft.openapi/1.6.25/microsoft.openapi.1.6.25.nupkg.sha512",
+    "/Users/alikoroglu/.nuget/packages/selenium.support/4.37.0/selenium.support.4.37.0.nupkg.sha512",
+    "/Users/alikoroglu/.nuget/packages/selenium.webdriver/4.37.0/selenium.webdriver.4.37.0.nupkg.sha512",
+    "/Users/alikoroglu/.nuget/packages/selenium.webdriver.chromedriver/114.0.5735.1600/selenium.webdriver.chromedriver.114.0.5735.1600.nupkg.sha512",
+    "/Users/alikoroglu/.nuget/packages/swashbuckle.aspnetcore/9.0.6/swashbuckle.aspnetcore.9.0.6.nupkg.sha512",
+    "/Users/alikoroglu/.nuget/packages/swashbuckle.aspnetcore.swagger/9.0.6/swashbuckle.aspnetcore.swagger.9.0.6.nupkg.sha512",
+    "/Users/alikoroglu/.nuget/packages/swashbuckle.aspnetcore.swaggergen/9.0.6/swashbuckle.aspnetcore.swaggergen.9.0.6.nupkg.sha512",
+    "/Users/alikoroglu/.nuget/packages/swashbuckle.aspnetcore.swaggerui/9.0.6/swashbuckle.aspnetcore.swaggerui.9.0.6.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "weather-api, Selenium.WebDriver.ChromeDriver (>= 114.0.5735.90) öğesine bağlı ancak Selenium.WebDriver.ChromeDriver 114.0.5735.90 bulunamadı. Bunun yerine Selenium.WebDriver.ChromeDriver 114.0.5735.1600 çözümlendi.",
+      "projectPath": "/Users/alikoroglu/Desktop/weather-app/weather-api/weather-api.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/alikoroglu/Desktop/weather-app/weather-api/weather-api.csproj",
+      "libraryId": "Selenium.WebDriver.ChromeDriver",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}

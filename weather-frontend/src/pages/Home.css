@@ -1,0 +1,40 @@
+/* ========================================================================= */
+/* === Home.css (TEMİZLENMİŞ VE MİNİMALİST HALİ) === */
+/* ========================================================================= */
+
+/* Global Reset ve Temel Font Ayarları */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* Arka plan stilini bu global düzeyde tutabiliriz, ancak 
+     dinamik renkleri WeatherContainer.css yönetiyor. */
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  /* Tüm sayfanın kaplanmasını sağlar */
+  min-height: 100vh;
+  /* Animasyonlu arkaplanı üstlenmesi için karanlık varsayılan */
+  background-color: #0f172a; 
+}
+
+/* Home Bileşeninin Kapsayıcısı */
+/* Bu sınıf sadece dikey ve yatay merkezleme görevini üstlenir. */
+.home-page-layout {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* Yatayda ortala */
+  align-items: center; /* Dikeyde ortala */
+  position: relative;
+  /* Animasyonlu arka plan WeatherContainer'ın içinde olduğu için,
+     Home.css burada sadece esnek bir düzenleyici görevi görüyor. */
+}
+
+/* DİKKAT: 
+Daha önceki tüm karmaşık stiller (.home-bg, .raindrop, .star, .home-container vb.) 
+**WeatherContainer.css** dosyasına taşınmıştır. 
+Bu dosyanın temiz kalması, mimari ayrımın doğru uygulandığını gösterir.
+*/

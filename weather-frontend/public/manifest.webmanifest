@@ -1,0 +1,26 @@
+{
+  "name": "Hava Durumu",
+  "short_name": "HavaDurumu",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e1e1e",
+  "theme_color": "#1e1e1e",
+  "orientation": "portrait",
+  "description": "Anlık hava durumu, sıcaklık, nem, rüzgar ve 5 günlük tahmin bilgilerini görüntüleyin.",
+  "lang": "tr",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icons/192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

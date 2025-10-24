@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+
+    <!-- Başlık -->
+    <title>Hava Durumu | Güncel Meteoroloji Bilgileri</title>
+
+    <!-- Açıklama (Google SEO) -->
+    <meta
+      name="description"
+      content="Anlık hava durumu, 5 günlük tahmin, nem, rüzgar ve sıcaklık bilgilerini anında öğrenin. Türkiye’nin her il ve ilçesi için detaylı meteoroloji verileri!"
+    />
+
+    <!-- Anahtar Kelimeler -->
+    <meta
+      name="keywords"
+      content="hava durumu, meteoroloji, sıcaklık, yağmur, istanbul hava durumu, akçaabat hava durumu, artvin hava durumu, 5 günlük tahmin"
+    />
+
+    <!-- Yazar bilgisi -->
+    <meta name="author" content="Hava Durumu Uygulaması" />
+
+    <!-- PWA Ayarları -->
+    <meta name="theme-color" content="#1e1e1e" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="Hava Durumu" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- Manifest (Vite'ta 'public' yolu gerekmez) -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- Favicon ve App Icon -->
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/192.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="/icons/192.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="/icons/512.png" />
+
+    <!-- Sosyal Medya (Open Graph & Twitter) -->
+    <meta property="og:title" content="Hava Durumu | Güncel Meteoroloji" />
+    <meta
+      property="og:description"
+      content="Türkiye’nin tüm şehirleri için anlık hava durumu, sıcaklık ve 5 günlük tahmin."
+    />
+    <meta property="og:image" content="/icons/512.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://seninsiteadresin.com" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hava Durumu | Güncel Meteoroloji" />
+    <meta
+      name="twitter:description"
+      content="Anlık hava durumu, sıcaklık, nem ve 5 günlük tahmin!"
+    />
+    <meta name="twitter:image" content="/icons/512.png" />
+
+    <!-- Splash Screen (iOS) -->
+    <meta name="apple-touch-fullscreen" content="yes" />
+  </head>
+
+  <body style="margin:0; overflow:hidden; background-color:#1e1e1e;">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
